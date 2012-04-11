@@ -1,0 +1,23 @@
+This sample code included will definitely build using g++ version 4.6.1 on ubuntu. It should build with most relatively modern versions of g++.
+It will NOT build using MSVC as variadic templates haven't been added yet (at least as of VS 2010).
+
+To build:
+
+    make
+
+To run:
+
+    ./test
+
+Expected output:
+
+results using std:
+get_val(1,2,3,4,5) after set_val(11,222,3333,44444,555555): 573526
+vfunc bound to instance of foo: 3
+vfunc bound to instance of bar: 9
+
+results using asgard:
+get_val(1,2,3,4,5) after set_val(11,222,3333,44444,555555): 573526
+vfunc bound to instance of foo: 3
+vfunc bound to instance of bar: 9
+
