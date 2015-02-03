@@ -21,7 +21,7 @@ get_val(1,2,3,4,5) after set_val(11,222,3333,44444,555555): 573526
 vfunc bound to instance of foo: 3
 vfunc bound to instance of bar: 9
 
-```c++
+```cpp
 int main(int argc, char** argv)
 {
     return 0;
